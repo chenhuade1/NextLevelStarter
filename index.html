@@ -6,7 +6,7 @@
     Todo documento HTML deve iniciar e finalizar com essa tag.
 -->
 <html lang="pt_br">
-    <!--tag head é aonde delimita o cabeçalho da sua página html.-->
+    <!--tag head é aonde delimita o cabeçalho do documento.-->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,31 +14,42 @@
         <title>Document</title>
 
         <!--Tag para estilização de fonte-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&Ubuntu:wght@700&display=swap" rel="stylesheet">
 
         <!--Tag para referenciar o arquivo css-->
         <link rel="stylesheet" href="/styles/main.css">
     </head>
 
     <body>
-        <div>
-            <!--Tag h1 até h6 são tags de headers ou cabeçalhos que variam o tamanho-->
-            <h3>Ecoleta</h3>
 
-            <!--Tag a é para definir um hyperlink-->
-            <a href="">Cadastre um ponto de Coleta</a>
+        <div id="page-home">
+            <!--Tag div define uma divisão ou seção da pagina html.-->
+             <div class="content">
 
-            <h1>Seu marketplace de coleta de resíduos</h1>
+                <!--Esta tag defini um cabeçalho, logo tudo o que estiver sentro desta fará parte do cabeçalho.-->
+                <header>
+                    <img src="/assets/logo.svg" alt="Logomarca">
 
-            <!--tag p é um tag de parágrafo-->
-            <p>
-                Ajudamos pessoass a encontrarem pontos de coleta de forma eficiente.
-            </p>
+                    <!--Tag a é para definir um hyperlink-->
+                    <a href="">
+                        <span></span>
+                        Cadastre um ponto de Coleta
+                    </a>
+                </header>
+                
+                <main>
+                    <h1>Seu marketplace de coleta de resíduos</h1>
 
-            <button>
-                Pesquisar ponto de Coleta
-            </button>
+                    <!--tag p é um tag de parágrafo-->
+                    <p> Ajudamos pessoass a encontrarem pontos de coleta de forma eficiente.</p>
+                    
+                    <a href="">
+                        <span></span>
+                        <strong>Pesquisar ponto de Coleta</strong>                 
+                    </a>
+                </main>
+
+            </div>
         </div>
-
     </body>
 </html>
